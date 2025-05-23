@@ -1,14 +1,39 @@
-# 2021-Stanford-TreeHacks-Project
-Data analysis tool to compare and plot public Twitter sentiment data for a specific company to its market performance.
+# 2021 Stanford TreeHacks Project
 
-We were able to identify a correlation between the tweet sentimentality and the company stock performance ~50% of the time.
+A data analysis tool designed to compare and visualize public Twitter sentiment related to specific companies alongside their corresponding stock market performance
 
-We programmed it in Python using VADER for sentiment analysis, Pandas and CSV Reader for data scraping and presentation, and public databases provided by Kaggle.
+Our analysis found a noticeable correlation between tweet sentiment and stock price trends in approximately **50%** of the cases studied.
 
-Although this project did not win any competitions at the Stanford Hackathon, it did teach me alot about data manipulation, display, and reading with Python. It also introduced me to different new Python libraries and frameworks, such as VADER.
+---
 
-TO USE:
+## 🚀 Technologies Used
 
-The .CSV files that are required for this project are too large to push onto github, so I provided a link to a Google Drive Folder that contains all of the required .CSV files:
+- **Python** – Core programming language  
+- **VADER (Valence Aware Dictionary and sEntiment Reasoner)** – Sentiment analysis  
+- **Pandas & CSV Reader** – Data manipulation and presentation  
+- **Kaggle Datasets** – Source of public data
 
-https://drive.google.com/drive/folders/16g68K6qQ7RNPkEEe7X_HkgFDRqhg6ky7?usp=share_link
+---
+
+## 📊 Project Insights
+
+Although this project did not place in the 2021 Stanford TreeHacks competition, it offered valuable experience in:
+
+- Data processing and visualization using Python  
+- Working with real-world datasets  
+- Exploring libraries like VADER for sentiment analysis
+
+---
+
+## 📁 Getting Started
+
+> **Note:** The required `.csv` files are too large to be stored directly on GitHub. Please download them from the following Google Drive folder:
+
+🔗 [Google Drive: Project Data](https://drive.google.com/drive/folders/16g68K6qQ7RNPkEEe7X_HkgFDRqhg6ky7?usp=share_link)
+
+### ✅ Prerequisites
+
+Ensure you have Python and the necessary libraries installed:
+
+```bash
+pip install pandas nltk
